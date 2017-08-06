@@ -1,0 +1,18 @@
+#hero {
+    margin-top: 130px;
+    text-align: center;
+}
+
+@media (max-width: 550px) {
+    #hero {
+        margin-top: 100px;
+    }
+}
+
+#hero #logo {
+    width: 300px
+}
+
+#hero #lead {
+    text-align: center;
+}
