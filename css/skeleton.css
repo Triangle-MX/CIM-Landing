@@ -163,7 +163,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #854D30; }
 a:hover {
   color: #0FA0CE; }
 
@@ -211,8 +211,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #ffb61e;
-  border-color: #ffb61e; }
+  background-color: #A9BAD8;
+  border-color: #A9BAD8; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -224,8 +224,13 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #854D30;
+  border-color: #854D30; }
+
+.button,.button .button-primary {
+    transition: .2s;
+    font-size: 110%
+}
 
 
 /* Forms
@@ -271,7 +276,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #ffb61e;
+  border: 1px solid #A9BAD8;
   outline: 0; }
 label,
 legend {
